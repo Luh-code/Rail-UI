@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "cmath": "cpp",
+    "cstdarg": "cpp",
+    "sdl.h": "c"
+  }
+}

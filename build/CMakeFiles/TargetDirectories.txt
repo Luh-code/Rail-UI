@@ -1,0 +1,8 @@
+D:/Projects/Rail/build/CMakeFiles/testprog.dir
+D:/Projects/Rail/build/CMakeFiles/edit_cache.dir
+D:/Projects/Rail/build/CMakeFiles/rebuild_cache.dir
+D:/Projects/Rail/build/deps/SDL/CMakeFiles/SDL3-shared.dir
+D:/Projects/Rail/build/deps/SDL/CMakeFiles/SDL3_test.dir
+D:/Projects/Rail/build/deps/SDL/CMakeFiles/uninstall.dir
+D:/Projects/Rail/build/deps/SDL/CMakeFiles/edit_cache.dir
+D:/Projects/Rail/build/deps/SDL/CMakeFiles/rebuild_cache.dir
