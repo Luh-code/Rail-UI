@@ -1,13 +1,13 @@
 [
 {
   "directory": "D:/Projects/Rail/build",
-  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe  @CMakeFiles/testprog.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\testprog.dir\\src\\Window.c.obj -c D:\\Projects\\Rail\\src\\Window.c",
-  "file": "D:/Projects/Rail/src/Window.c"
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe  @CMakeFiles/rail_renderer_test.dir/includes_C.rsp -g -std=gnu99 -Winvalid-pch -x c-header -include D:/Projects/Rail/build/CMakeFiles/rail_renderer_test.dir/cmake_pch.h -o CMakeFiles\\rail_renderer_test.dir\\cmake_pch.h.gch -c D:\\Projects\\Rail\\build\\CMakeFiles\\rail_renderer_test.dir\\cmake_pch.h.c",
+  "file": "D:/Projects/Rail/build/CMakeFiles/rail_renderer_test.dir/cmake_pch.h.c"
 },
 {
   "directory": "D:/Projects/Rail/build",
-  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe  @CMakeFiles/testprog.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\testprog.dir\\src\\Test.c.obj -c D:\\Projects\\Rail\\src\\Test.c",
-  "file": "D:/Projects/Rail/src/Test.c"
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe  @CMakeFiles/rail_renderer_test.dir/includes_C.rsp -g -std=gnu99 -Winvalid-pch -include D:/Projects/Rail/build/CMakeFiles/rail_renderer_test.dir/cmake_pch.h -o CMakeFiles\\rail_renderer_test.dir\\projects\\rail_renderer_test\\src\\Test.c.obj -c D:\\Projects\\Rail\\projects\\rail_renderer_test\\src\\Test.c",
+  "file": "D:/Projects/Rail/projects/rail_renderer_test/src/Test.c"
 },
 {
   "directory": "D:/Projects/Rail/build/deps/SDL",
@@ -1028,5 +1028,205 @@
   "directory": "D:/Projects/Rail/build/deps/SDL",
   "command": "D:\\Resources\\MinGW\\bin\\gcc.exe  @CMakeFiles/SDL3_test.dir/includes_C.rsp -g -idirafter D:/Projects/Rail/deps/SDL/src/video/khronos -Wall -fno-strict-aliasing -Wdeclaration-after-statement -Wshadow -gdwarf-4 -std=gnu99 -o CMakeFiles\\SDL3_test.dir\\src\\test\\SDL_test_random.c.obj -c D:\\Projects\\Rail\\deps\\SDL\\src\\test\\SDL_test_random.c",
   "file": "D:/Projects/Rail/deps/SDL/src/test/SDL_test_random.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\euler.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\euler.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/euler.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\affine.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/affine.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\io.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\io.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/io.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\quat.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\quat.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/quat.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\cam.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\cam.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/cam.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec2.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\vec2.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/vec2.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ivec2.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\ivec2.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/ivec2.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec3.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\vec3.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/vec3.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ivec3.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\ivec3.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/ivec3.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec4.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\vec4.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/vec4.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ivec4.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\ivec4.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/ivec4.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat2.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\mat2.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/mat2.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat3.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\mat3.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/mat3.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat4.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\mat4.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/mat4.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\plane.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\plane.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/plane.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\frustum.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\frustum.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/frustum.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\box.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\box.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/box.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\project.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\project.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/project.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\sphere.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\sphere.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/sphere.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ease.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\ease.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/ease.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\curve.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\curve.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/curve.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\bezier.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\bezier.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/bezier.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ray.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\ray.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/ray.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine2d.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\affine2d.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/affine2d.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\ortho_lh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/ortho_lh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\ortho_lh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/ortho_lh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\ortho_rh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/ortho_rh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\ortho_rh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/ortho_rh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\persp_lh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/persp_lh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\persp_lh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/persp_lh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\persp_rh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/persp_rh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\persp_rh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/persp_rh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\view_lh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/view_lh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\view_lh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/view_lh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\view_rh_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/view_rh_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\view_rh_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/view_rh_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\project_no.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\project_no.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/project_no.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/deps/CGLM",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\project_zo.c.obj -c D:\\Projects\\Rail\\deps\\CGLM\\src\\clipspace\\project_zo.c",
+  "file": "D:/Projects/Rail/deps/CGLM/src/clipspace/project_zo.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/projects/rail_renderer",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -Drail_renderer_EXPORTS @CMakeFiles/rail_renderer.dir/includes_C.rsp -g -std=gnu99 -Winvalid-pch -x c-header -include D:/Projects/Rail/build/projects/rail_renderer/CMakeFiles/rail_renderer.dir/cmake_pch.h -o CMakeFiles\\rail_renderer.dir\\cmake_pch.h.gch -c D:\\Projects\\Rail\\build\\projects\\rail_renderer\\CMakeFiles\\rail_renderer.dir\\cmake_pch.h.c",
+  "file": "D:/Projects/Rail/build/projects/rail_renderer/CMakeFiles/rail_renderer.dir/cmake_pch.h.c"
+},
+{
+  "directory": "D:/Projects/Rail/build/projects/rail_renderer",
+  "command": "D:\\Resources\\MinGW\\bin\\gcc.exe -Drail_renderer_EXPORTS @CMakeFiles/rail_renderer.dir/includes_C.rsp -g -std=gnu99 -Winvalid-pch -include D:/Projects/Rail/build/projects/rail_renderer/CMakeFiles/rail_renderer.dir/cmake_pch.h -o CMakeFiles\\rail_renderer.dir\\src\\Window.c.obj -c D:\\Projects\\Rail\\projects\\rail_renderer\\src\\Window.c",
+  "file": "D:/Projects/Rail/projects/rail_renderer/src/Window.c"
 }
 ]

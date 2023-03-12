@@ -1,0 +1,114 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/CGLM/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"D:/Projects/Rail/lib/libcglm.dll.a"
+			],
+			"targetId" : "cglm::@65977164ba5ffe3eebc0",
+			"targetIndex" : 2,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"D:/Projects/Rail/bin/libcglm-0.dll"
+			],
+			"targetId" : "cglm::@65977164ba5ffe3eebc0",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"deps/CGLM/include/cglm"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/cglm",
+			"exportName" : "cglm",
+			"exportTargets" : 
+			[
+				{
+					"id" : "cglm::@65977164ba5ffe3eebc0",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"deps/CGLM/CMakeFiles/Export/c1d47c5456110782bdc417ad7bdf8965/cglmConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"build/deps/CGLM/cglm.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/CGLM",
+		"source" : "deps/CGLM"
+	}
+}

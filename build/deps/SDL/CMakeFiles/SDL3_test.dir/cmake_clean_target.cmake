@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libSDL3_test.a"
+  "D:/Projects/Rail/lib/libSDL3_test.a"
 )

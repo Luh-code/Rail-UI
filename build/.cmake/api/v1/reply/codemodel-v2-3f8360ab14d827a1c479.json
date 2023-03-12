@@ -1,0 +1,194 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "deps/SDL",
+					"jsonFile" : "directory-deps.SDL-Debug-8e00a018718a51b11933.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/SDL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"build" : "deps/CGLM",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-deps.CGLM-Debug-78dba32a887a295ccac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "deps/CGLM",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "projects/rail_renderer",
+					"jsonFile" : "directory-projects.rail_renderer-Debug-c115c35dfb8b956ac52b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "projects/rail_renderer",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rail_renderer_test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "cglm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "rail_renderer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@452fcec4bda15c967a06",
+					"jsonFile" : "target-SDL3-shared-Debug-29e9796c2fb843599355.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@452fcec4bda15c967a06",
+					"jsonFile" : "target-SDL3_test-Debug-a1010060124ee3adbd19.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cglm::@65977164ba5ffe3eebc0",
+					"jsonFile" : "target-cglm-Debug-b83d967707194d135959.json",
+					"name" : "cglm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "rail_renderer::@b1b0ba44e75fca23bc79",
+					"jsonFile" : "target-rail_renderer-Debug-7132618fe63f76d65276.json",
+					"name" : "rail_renderer",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rail_renderer_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rail_renderer_test-Debug-7a606dce6f9004650cfd.json",
+					"name" : "rail_renderer_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@452fcec4bda15c967a06",
+					"jsonFile" : "target-uninstall-Debug-a41922321b9613e6eeb0.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/Rail/build",
+		"source" : "D:/Projects/Rail"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

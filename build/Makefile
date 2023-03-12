@@ -64,6 +64,26 @@ CMAKE_BINARY_DIR = D:\Projects\Rail\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+.PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	"C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/Projects/Rail/build/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+.PHONY : package_source/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -83,6 +103,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -116,17 +181,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testprog
+# Target rules for targets named rail_renderer_test
 
 # Build rule for target.
-testprog: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 testprog
-.PHONY : testprog
+rail_renderer_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rail_renderer_test
+.PHONY : rail_renderer_test
 
 # fast build rule for target.
-testprog/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/build
-.PHONY : testprog/fast
+rail_renderer_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/build
+.PHONY : rail_renderer_test/fast
 
 #=============================================================================
 # Target rules for targets named SDL3-shared
@@ -167,53 +232,70 @@ uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f deps\SDL\CMakeFiles\uninstall.dir\build.make deps/SDL/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/Test.obj: src/Test.c.obj
-.PHONY : src/Test.obj
+#=============================================================================
+# Target rules for targets named cglm
+
+# Build rule for target.
+cglm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cglm
+.PHONY : cglm
+
+# fast build rule for target.
+cglm/fast:
+	$(MAKE) $(MAKESILENT) -f deps\CGLM\CMakeFiles\cglm.dir\build.make deps/CGLM/CMakeFiles/cglm.dir/build
+.PHONY : cglm/fast
+
+#=============================================================================
+# Target rules for targets named rail_renderer
+
+# Build rule for target.
+rail_renderer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 rail_renderer
+.PHONY : rail_renderer
+
+# fast build rule for target.
+rail_renderer/fast:
+	$(MAKE) $(MAKESILENT) -f projects\rail_renderer\CMakeFiles\rail_renderer.dir\build.make projects/rail_renderer/CMakeFiles/rail_renderer.dir/build
+.PHONY : rail_renderer/fast
 
 # target to build an object file
-src/Test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Test.c.obj
-.PHONY : src/Test.c.obj
-
-src/Test.i: src/Test.c.i
-.PHONY : src/Test.i
+cmake_pch.h.gch:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/cmake_pch.h.gch
+.PHONY : cmake_pch.h.gch
 
 # target to preprocess a source file
-src/Test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Test.c.i
-.PHONY : src/Test.c.i
-
-src/Test.s: src/Test.c.s
-.PHONY : src/Test.s
+cmake_pch.h.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/cmake_pch.h.i
+.PHONY : cmake_pch.h.i
 
 # target to generate assembly for a file
-src/Test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Test.c.s
-.PHONY : src/Test.c.s
+cmake_pch.h.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/cmake_pch.h.s
+.PHONY : cmake_pch.h.s
 
-src/Window.obj: src/Window.c.obj
-.PHONY : src/Window.obj
+projects/rail_renderer_test/src/Test.obj: projects/rail_renderer_test/src/Test.c.obj
+.PHONY : projects/rail_renderer_test/src/Test.obj
 
 # target to build an object file
-src/Window.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Window.c.obj
-.PHONY : src/Window.c.obj
+projects/rail_renderer_test/src/Test.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/projects/rail_renderer_test/src/Test.c.obj
+.PHONY : projects/rail_renderer_test/src/Test.c.obj
 
-src/Window.i: src/Window.c.i
-.PHONY : src/Window.i
+projects/rail_renderer_test/src/Test.i: projects/rail_renderer_test/src/Test.c.i
+.PHONY : projects/rail_renderer_test/src/Test.i
 
 # target to preprocess a source file
-src/Window.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Window.c.i
-.PHONY : src/Window.c.i
+projects/rail_renderer_test/src/Test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/projects/rail_renderer_test/src/Test.c.i
+.PHONY : projects/rail_renderer_test/src/Test.c.i
 
-src/Window.s: src/Window.c.s
-.PHONY : src/Window.s
+projects/rail_renderer_test/src/Test.s: projects/rail_renderer_test/src/Test.c.s
+.PHONY : projects/rail_renderer_test/src/Test.s
 
 # target to generate assembly for a file
-src/Window.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\testprog.dir\build.make CMakeFiles/testprog.dir/src/Window.c.s
-.PHONY : src/Window.c.s
+projects/rail_renderer_test/src/Test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\rail_renderer_test.dir\build.make CMakeFiles/rail_renderer_test.dir/projects/rail_renderer_test/src/Test.c.s
+.PHONY : projects/rail_renderer_test/src/Test.c.s
 
 # Help Target
 help:
@@ -222,17 +304,25 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
+	@echo ... package
+	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... SDL3-shared
 	@echo ... SDL3_test
-	@echo ... testprog
-	@echo ... src/Test.obj
-	@echo ... src/Test.i
-	@echo ... src/Test.s
-	@echo ... src/Window.obj
-	@echo ... src/Window.i
-	@echo ... src/Window.s
+	@echo ... cglm
+	@echo ... rail_renderer
+	@echo ... rail_renderer_test
+	@echo ... cmake_pch.h.gch
+	@echo ... cmake_pch.h.i
+	@echo ... cmake_pch.h.s
+	@echo ... projects/rail_renderer_test/src/Test.obj
+	@echo ... projects/rail_renderer_test/src/Test.i
+	@echo ... projects/rail_renderer_test/src/Test.s
 .PHONY : help
 
 

@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\testprog.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\testprog.dir/objects.a @CMakeFiles\testprog.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\testprog.dir/objects.a -Wl,--no-whole-archive -o D:\Projects\Rail\bin\testprog.exe -Wl,--out-implib,libtestprog.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testprog.dir\linklibs.rsp

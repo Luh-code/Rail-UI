@@ -1,0 +1,1 @@
+ D:/Projects/Rail/lib/librail_renderer.dll.a D:/Projects/Rail/lib/libSDL3.dll.a D:/Projects/Rail/lib/libcglm.dll.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

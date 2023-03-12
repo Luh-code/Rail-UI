@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\rail_renderer.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\rail_renderer.dir/objects.a @CMakeFiles\rail_renderer.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe -g -shared -o D:\Projects\Rail\bin\librail_renderer.dll -Wl,--out-implib,D:\Projects\Rail\lib\librail_renderer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\rail_renderer.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\rail_renderer.dir\linklibs.rsp

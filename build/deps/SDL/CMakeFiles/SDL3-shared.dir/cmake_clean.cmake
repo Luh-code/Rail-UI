@@ -389,7 +389,7 @@ file(REMOVE_RECURSE
   "D:/Projects/Rail/bin/SDL3.dll"
   "D:/Projects/Rail/bin/SDL3.dll.manifest"
   "D:/Projects/Rail/bin/SDL3.pdb"
-  "libSDL3.dll.a"
+  "D:/Projects/Rail/lib/libSDL3.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

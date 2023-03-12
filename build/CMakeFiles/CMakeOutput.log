@@ -12,13 +12,26 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 The C compiler identification is GNU, found in "D:/Projects/Rail/build/CMakeFiles/3.24.2/CompilerIdC/a.exe"
 
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Resources/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/Projects/Rail/build/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
+
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e5a63/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e5a63.dir\build.make CMakeFiles/cmTC_e5a63.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_efeed/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_efeed.dir\build.make CMakeFiles/cmTC_efeed.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5a63.dir/CMakeCCompilerABI.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_efeed.dir/CMakeCCompilerABI.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\Resources\MinGW\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -26,8 +39,8 @@ Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --b
 Thread model: win32
 Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\'
- D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_e5a63.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cc37lxgG.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\'
+ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_efeed.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cctkXwDB.s
 GNU C17 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
 
@@ -48,17 +61,17 @@ GNU C17 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) version 12.2.0 (x86_
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: c1d747d17a08cf028dc838699bfafd52
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\'
- D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj C:\Users\Lasse\AppData\Local\Temp\cc37lxgG.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\'
+ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj C:\Users\Lasse\AppData\Local\Temp\cctkXwDB.s
 GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../libexec/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../lib/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.'
-Linking C executable cmTC_e5a63.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e5a63.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e5a63.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_e5a63.dir/objects.a @CMakeFiles\cmTC_e5a63.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_e5a63.dir/objects.a -Wl,--no-whole-archive -o cmTC_e5a63.exe -Wl,--out-implib,libcmTC_e5a63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_efeed.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_efeed.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_efeed.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_efeed.dir/objects.a @CMakeFiles\cmTC_efeed.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_efeed.dir/objects.a -Wl,--no-whole-archive -o cmTC_efeed.exe -Wl,--out-implib,libcmTC_efeed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\Resources\MinGW\bin\gcc.exe
 COLLECT_LTO_WRAPPER=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -69,9 +82,9 @@ Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../libexec/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../lib/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5a63.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_e5a63.'
- D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccRZ7tng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_e5a63.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_e5a63.dir/objects.a --no-whole-archive --out-implib libcmTC_e5a63.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5a63.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_e5a63.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efeed.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_efeed.'
+ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccz3y2VL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_efeed.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_efeed.dir/objects.a --no-whole-archive --out-implib libcmTC_efeed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efeed.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_efeed.'
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -93,10 +106,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e5a63/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e5a63.dir\build.make CMakeFiles/cmTC_e5a63.dir/build]
+  ignore line: [Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_efeed/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_efeed.dir\build.make CMakeFiles/cmTC_efeed.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_e5a63.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [D:\Resources\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Building C object CMakeFiles/cmTC_efeed.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\Resources\MinGW\bin\gcc.exe   -v -o CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Resources\MinGW\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -104,8 +117,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: win32]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (x86_64-win32-seh-rev0  Built by MinGW-W64 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\']
-  ignore line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_e5a63.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cc37lxgG.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\']
+  ignore line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_efeed.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cctkXwDB.s]
   ignore line: [GNU C17 (x86_64-win32-seh-rev0  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
   ignore line: []
@@ -126,8 +139,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: c1d747d17a08cf028dc838699bfafd52]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\']
-  ignore line: [ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj C:\Users\Lasse\AppData\Local\Temp\cc37lxgG.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\']
+  ignore line: [ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj C:\Users\Lasse\AppData\Local\Temp\cctkXwDB.s]
   ignore line: [GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
   ignore line: [D:/Resources/MinGW/bin/../libexec/gcc/]
@@ -138,12 +151,12 @@ Parsed C implicit link information from above output:
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_e5a63.dir\CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_e5a63.exe]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e5a63.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e5a63.dir/objects.a]
-  ignore line: [D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_e5a63.dir/objects.a @CMakeFiles\cmTC_e5a63.dir\objects1.rsp]
-  ignore line: [D:\Resources\MinGW\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_e5a63.dir/objects.a -Wl --no-whole-archive -o cmTC_e5a63.exe -Wl --out-implib libcmTC_e5a63.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_efeed.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_efeed.exe]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_efeed.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_efeed.dir/objects.a]
+  ignore line: [D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_efeed.dir/objects.a @CMakeFiles\cmTC_efeed.dir\objects1.rsp]
+  ignore line: [D:\Resources\MinGW\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_efeed.dir/objects.a -Wl --no-whole-archive -o cmTC_efeed.exe -Wl --out-implib libcmTC_efeed.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Resources\MinGW\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
@@ -161,13 +174,13 @@ Parsed C implicit link information from above output:
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e5a63.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_e5a63.']
-  link line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccRZ7tng.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_e5a63.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_e5a63.dir/objects.a --no-whole-archive --out-implib libcmTC_e5a63.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efeed.exe' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_efeed.']
+  link line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccz3y2VL.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_efeed.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_efeed.dir/objects.a --no-whole-archive --out-implib libcmTC_efeed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
     arg [D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
     arg [-plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccRZ7tng.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccz3y2VL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -192,7 +205,7 @@ Parsed C implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_e5a63.exe] ==> ignore
+    arg [cmTC_efeed.exe] ==> ignore
     arg [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
@@ -202,10 +215,10 @@ Parsed C implicit link information from above output:
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_e5a63.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_efeed.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_e5a63.dll.a] ==> ignore
+    arg [libcmTC_efeed.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -249,26 +262,13 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: D:/Resources/MinGW/bin/g++.exe 
-Build flags: 
-Id flags:  
-
-The output was:
-0
-
-
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
-
-The CXX compiler identification is GNU, found in "D:/Projects/Rail/build/CMakeFiles/3.24.2/CompilerIdCXX/a.exe"
-
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_08e61/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_08e61.dir\build.make CMakeFiles/cmTC_08e61.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b4b68/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b4b68.dir\build.make CMakeFiles/cmTC_b4b68.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_08e61.dir/CMakeCXXCompilerABI.cpp.obj
-D:\Resources\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_b4b68.dir/CMakeCXXCompilerABI.cpp.obj
+D:\Resources\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=D:\Resources\MinGW\bin\g++.exe
 Target: x86_64-w64-mingw32
@@ -276,8 +276,8 @@ Configured with: ../../../src/gcc-12.2.0/configure --host=x86_64-w64-mingw32 --b
 Thread model: win32
 Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\'
- D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_08e61.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cc0cBfzD.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\'
+ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_b4b68.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\ccfx2uvb.s
 GNU C++17 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
 
@@ -304,17 +304,17 @@ GNU C++17 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) version 12.2.0 (x8
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 7a157278dd7528272ff2e546fb5d86d8
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\'
- D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lasse\AppData\Local\Temp\cc0cBfzD.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\'
+ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lasse\AppData\Local\Temp\ccfx2uvb.s
 GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38
 COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../libexec/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../lib/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_08e61.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_08e61.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_08e61.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_08e61.dir/objects.a @CMakeFiles\cmTC_08e61.dir\objects1.rsp
-D:\Resources\MinGW\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_08e61.dir/objects.a -Wl,--no-whole-archive -o cmTC_08e61.exe -Wl,--out-implib,libcmTC_08e61.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_b4b68.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b4b68.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b4b68.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_b4b68.dir/objects.a @CMakeFiles\cmTC_b4b68.dir\objects1.rsp
+D:\Resources\MinGW\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_b4b68.dir/objects.a -Wl,--no-whole-archive -o cmTC_b4b68.exe -Wl,--out-implib,libcmTC_b4b68.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:\Resources\MinGW\bin\g++.exe
 COLLECT_LTO_WRAPPER=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe
@@ -325,9 +325,9 @@ Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (x86_64-win32-seh-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../libexec/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/;D:/Resources/MinGW/bin/../lib/gcc/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08e61.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_08e61.'
- D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccm456mM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_08e61.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_08e61.dir/objects.a --no-whole-archive --out-implib libcmTC_08e61.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08e61.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_08e61.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4b68.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b4b68.'
+ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\cc8W40kj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b4b68.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_b4b68.dir/objects.a --no-whole-archive --out-implib libcmTC_b4b68.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4b68.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b4b68.'
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -355,10 +355,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_08e61/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_08e61.dir\build.make CMakeFiles/cmTC_08e61.dir/build]
+  ignore line: [Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b4b68/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b4b68.dir\build.make CMakeFiles/cmTC_b4b68.dir/build]
   ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_08e61.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [D:\Resources\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b4b68.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\Resources\MinGW\bin\g++.exe   -v -o CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Resources\MinGW\bin\g++.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -366,8 +366,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: win32]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (x86_64-win32-seh-rev0  Built by MinGW-W64 project) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\']
-  ignore line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_08e61.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\cc0cBfzD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\']
+  ignore line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1plus.exe -quiet -v -iprefix D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/ -U_REENTRANT C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_b4b68.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\Users\Lasse\AppData\Local\Temp\ccfx2uvb.s]
   ignore line: [GNU C++17 (x86_64-win32-seh-rev0  Built by MinGW-W64 project) version 12.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
   ignore line: []
@@ -394,8 +394,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 7a157278dd7528272ff2e546fb5d86d8]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\']
-  ignore line: [ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lasse\AppData\Local\Temp\cc0cBfzD.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\']
+  ignore line: [ D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\Lasse\AppData\Local\Temp\ccfx2uvb.s]
   ignore line: [GNU assembler version 2.38 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.38]
   ignore line: [COMPILER_PATH=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/]
   ignore line: [D:/Resources/MinGW/bin/../libexec/gcc/]
@@ -406,12 +406,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_08e61.dir\CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_08e61.exe]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_08e61.dir\link.txt --verbose=1]
-  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_08e61.dir/objects.a]
-  ignore line: [D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_08e61.dir/objects.a @CMakeFiles\cmTC_08e61.dir\objects1.rsp]
-  ignore line: [D:\Resources\MinGW\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_08e61.dir/objects.a -Wl --no-whole-archive -o cmTC_08e61.exe -Wl --out-implib libcmTC_08e61.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\cmTC_b4b68.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_b4b68.exe]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b4b68.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b4b68.dir/objects.a]
+  ignore line: [D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_b4b68.dir/objects.a @CMakeFiles\cmTC_b4b68.dir\objects1.rsp]
+  ignore line: [D:\Resources\MinGW\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_b4b68.dir/objects.a -Wl --no-whole-archive -o cmTC_b4b68.exe -Wl --out-implib libcmTC_b4b68.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Resources\MinGW\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe]
@@ -429,13 +429,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08e61.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_08e61.']
-  link line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccm456mM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_08e61.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_08e61.dir/objects.a --no-whole-archive --out-implib libcmTC_08e61.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b4b68.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_b4b68.']
+  link line: [ D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe -plugin D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll -plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\cc8W40kj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1220-win32-seh-rt_v10-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_b4b68.exe D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0 -LD:/Resources/MinGW/bin/../lib/gcc -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../.. --whole-archive CMakeFiles\cmTC_b4b68.dir/objects.a --no-whole-archive --out-implib libcmTC_b4b68.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o]
     arg [D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.dll] ==> ignore
     arg [-plugin-opt=D:/Resources/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\ccm456mM.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Lasse\AppData\Local\Temp\cc8W40kj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -460,7 +460,7 @@ Parsed CXX implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_08e61.exe] ==> ignore
+    arg [cmTC_b4b68.exe] ==> ignore
     arg [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o] ==> obj [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o]
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0]
@@ -470,10 +470,10 @@ Parsed CXX implicit link information from above output:
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LD:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..] ==> dir [D:/Resources/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/12.2.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_08e61.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_b4b68.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_08e61.dll.a] ==> ignore
+    arg [libcmTC_b4b68.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -519,15 +519,15 @@ Parsed CXX implicit link information from above output:
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X64 succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2e9fd/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2e9fd.dir\build.make CMakeFiles/cmTC_2e9fd.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_19664/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_19664.dir\build.make CMakeFiles/cmTC_19664.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e9fd.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X64   -o CMakeFiles\cmTC_2e9fd.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_2e9fd.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2e9fd.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2e9fd.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_2e9fd.dir/objects.a @CMakeFiles\cmTC_2e9fd.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_2e9fd.dir/objects.a -Wl,--no-whole-archive -o cmTC_2e9fd.exe -Wl,--out-implib,libcmTC_2e9fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2e9fd.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_19664.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X64   -o CMakeFiles\cmTC_19664.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_19664.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19664.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_19664.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_19664.dir/objects.a @CMakeFiles\cmTC_19664.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_19664.dir/objects.a -Wl,--no-whole-archive -o cmTC_19664.exe -Wl,--out-implib,libcmTC_19664.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_19664.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -544,15 +544,15 @@ int main(int argc, char *argv[]) {
 Performing C SOURCE FILE Test HAVE_WL_VERSION_SCRIPT succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_90094/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_90094.dir\build.make CMakeFiles/cmTC_90094.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3b4fe/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3b4fe.dir\build.make CMakeFiles/cmTC_3b4fe.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_90094.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_WL_VERSION_SCRIPT  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_90094.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_90094.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90094.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_90094.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_90094.dir/objects.a @CMakeFiles\cmTC_90094.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--version-script=D:/Projects/Rail/deps/SDL/src/dynapi/SDL_dynapi.sym -Wl,--whole-archive CMakeFiles\cmTC_90094.dir/objects.a -Wl,--no-whole-archive -o cmTC_90094.exe -Wl,--out-implib,libcmTC_90094.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_90094.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_3b4fe.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_WL_VERSION_SCRIPT  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_3b4fe.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_3b4fe.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3b4fe.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3b4fe.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_3b4fe.dir/objects.a @CMakeFiles\cmTC_3b4fe.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--version-script=D:/Projects/Rail/deps/SDL/src/dynapi/SDL_dynapi.sym -Wl,--whole-archive CMakeFiles\cmTC_3b4fe.dir/objects.a -Wl,--no-whole-archive -o cmTC_3b4fe.exe -Wl,--out-implib,libcmTC_3b4fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3b4fe.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -561,15 +561,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8ab93/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8ab93.dir\build.make CMakeFiles/cmTC_8ab93.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_67b92/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_67b92.dir\build.make CMakeFiles/cmTC_67b92.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ab93.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WALL  -D_GNU_SOURCE=1   -Wall -o CMakeFiles\cmTC_8ab93.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_8ab93.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8ab93.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8ab93.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_8ab93.dir/objects.a @CMakeFiles\cmTC_8ab93.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_8ab93.dir/objects.a -Wl,--no-whole-archive -o cmTC_8ab93.exe -Wl,--out-implib,libcmTC_8ab93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8ab93.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_67b92.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WALL  -D_GNU_SOURCE=1   -Wall -o CMakeFiles\cmTC_67b92.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_67b92.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_67b92.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_67b92.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_67b92.dir/objects.a @CMakeFiles\cmTC_67b92.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_67b92.dir/objects.a -Wl,--no-whole-archive -o cmTC_67b92.exe -Wl,--out-implib,libcmTC_67b92.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_67b92.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -578,15 +578,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_66a43/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_66a43.dir\build.make CMakeFiles/cmTC_66a43.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cc19e/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cc19e.dir\build.make CMakeFiles/cmTC_cc19e.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66a43.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_NO_STRICT_ALIASING  -D_GNU_SOURCE=1   -fno-strict-aliasing -o CMakeFiles\cmTC_66a43.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_66a43.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_66a43.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_66a43.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_66a43.dir/objects.a @CMakeFiles\cmTC_66a43.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_66a43.dir/objects.a -Wl,--no-whole-archive -o cmTC_66a43.exe -Wl,--out-implib,libcmTC_66a43.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_66a43.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_cc19e.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_NO_STRICT_ALIASING  -D_GNU_SOURCE=1   -fno-strict-aliasing -o CMakeFiles\cmTC_cc19e.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_cc19e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cc19e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_cc19e.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_cc19e.dir/objects.a @CMakeFiles\cmTC_cc19e.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_cc19e.dir/objects.a -Wl,--no-whole-archive -o cmTC_cc19e.exe -Wl,--out-implib,libcmTC_cc19e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cc19e.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -595,15 +595,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_66f7d/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_66f7d.dir\build.make CMakeFiles/cmTC_66f7d.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5cb32/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5cb32.dir\build.make CMakeFiles/cmTC_5cb32.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66f7d.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT  -D_GNU_SOURCE=1   -Wdeclaration-after-statement -o CMakeFiles\cmTC_66f7d.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_66f7d.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_66f7d.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_66f7d.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_66f7d.dir/objects.a @CMakeFiles\cmTC_66f7d.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_66f7d.dir/objects.a -Wl,--no-whole-archive -o cmTC_66f7d.exe -Wl,--out-implib,libcmTC_66f7d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_66f7d.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_5cb32.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT  -D_GNU_SOURCE=1   -Wdeclaration-after-statement -o CMakeFiles\cmTC_5cb32.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_5cb32.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5cb32.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5cb32.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_5cb32.dir/objects.a @CMakeFiles\cmTC_5cb32.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_5cb32.dir/objects.a -Wl,--no-whole-archive -o cmTC_5cb32.exe -Wl,--out-implib,libcmTC_5cb32.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5cb32.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -612,15 +612,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d592d/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d592d.dir\build.make CMakeFiles/cmTC_d592d.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7cce3/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7cce3.dir\build.make CMakeFiles/cmTC_7cce3.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d592d.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_ATOMICS  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_d592d.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_d592d.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d592d.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d592d.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_d592d.dir/objects.a @CMakeFiles\cmTC_d592d.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_d592d.dir/objects.a -Wl,--no-whole-archive -o cmTC_d592d.exe -Wl,--out-implib,libcmTC_d592d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d592d.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_7cce3.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_ATOMICS  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_7cce3.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_7cce3.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7cce3.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_7cce3.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_7cce3.dir/objects.a @CMakeFiles\cmTC_7cce3.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_7cce3.dir/objects.a -Wl,--no-whole-archive -o cmTC_7cce3.exe -Wl,--out-implib,libcmTC_7cce3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7cce3.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -637,15 +637,15 @@ int main(int argc, char **argv) {
 Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_aa6c1/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aa6c1.dir\build.make CMakeFiles/cmTC_aa6c1.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_22a4b/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_22a4b.dir\build.make CMakeFiles/cmTC_22a4b.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa6c1.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WSHADOW  -D_GNU_SOURCE=1   -Wshadow -o CMakeFiles\cmTC_aa6c1.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_aa6c1.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aa6c1.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_aa6c1.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_aa6c1.dir/objects.a @CMakeFiles\cmTC_aa6c1.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_aa6c1.dir/objects.a -Wl,--no-whole-archive -o cmTC_aa6c1.exe -Wl,--out-implib,libcmTC_aa6c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_aa6c1.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_22a4b.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WSHADOW  -D_GNU_SOURCE=1   -Wshadow -o CMakeFiles\cmTC_22a4b.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_22a4b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_22a4b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_22a4b.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_22a4b.dir/objects.a @CMakeFiles\cmTC_22a4b.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_22a4b.dir/objects.a -Wl,--no-whole-archive -o cmTC_22a4b.exe -Wl,--out-implib,libcmTC_22a4b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_22a4b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -654,15 +654,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5e000/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5e000.dir\build.make CMakeFiles/cmTC_5e000.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_84829/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84829.dir\build.make CMakeFiles/cmTC_84829.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5e000.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_NO_UNDEFINED  -D_GNU_SOURCE=1 -Wl,--no-undefined -o CMakeFiles\cmTC_5e000.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_5e000.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5e000.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5e000.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_5e000.dir/objects.a @CMakeFiles\cmTC_5e000.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--no-undefined -Wl,--whole-archive CMakeFiles\cmTC_5e000.dir/objects.a -Wl,--no-whole-archive -o cmTC_5e000.exe -Wl,--out-implib,libcmTC_5e000.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5e000.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_84829.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_NO_UNDEFINED  -D_GNU_SOURCE=1 -Wl,--no-undefined -o CMakeFiles\cmTC_84829.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_84829.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_84829.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_84829.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_84829.dir/objects.a @CMakeFiles\cmTC_84829.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--no-undefined -Wl,--whole-archive CMakeFiles\cmTC_84829.dir/objects.a -Wl,--no-whole-archive -o cmTC_84829.exe -Wl,--out-implib,libcmTC_84829.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_84829.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -671,15 +671,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GDWARF_4 succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_146e9/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_146e9.dir\build.make CMakeFiles/cmTC_146e9.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_31bb0/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_31bb0.dir\build.make CMakeFiles/cmTC_31bb0.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_146e9.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GDWARF_4  -D_GNU_SOURCE=1   -gdwarf-4 -o CMakeFiles\cmTC_146e9.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_146e9.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_146e9.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_146e9.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_146e9.dir/objects.a @CMakeFiles\cmTC_146e9.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_146e9.dir/objects.a -Wl,--no-whole-archive -o cmTC_146e9.exe -Wl,--out-implib,libcmTC_146e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_146e9.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_31bb0.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GDWARF_4  -D_GNU_SOURCE=1   -gdwarf-4 -o CMakeFiles\cmTC_31bb0.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_31bb0.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31bb0.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_31bb0.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_31bb0.dir/objects.a @CMakeFiles\cmTC_31bb0.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_31bb0.dir/objects.a -Wl,--no-whole-archive -o cmTC_31bb0.exe -Wl,--out-implib,libcmTC_31bb0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_31bb0.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -688,15 +688,15 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a07f3/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a07f3.dir\build.make CMakeFiles/cmTC_a07f3.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_99761/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_99761.dir\build.make CMakeFiles/cmTC_99761.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a07f3.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_MMX  -D_GNU_SOURCE=1 -mmmx -o CMakeFiles\cmTC_a07f3.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_a07f3.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a07f3.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a07f3.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_a07f3.dir/objects.a @CMakeFiles\cmTC_a07f3.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -mmmx -Wl,--whole-archive CMakeFiles\cmTC_a07f3.dir/objects.a -Wl,--no-whole-archive -o cmTC_a07f3.exe -Wl,--out-implib,libcmTC_a07f3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a07f3.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_99761.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_MMX  -D_GNU_SOURCE=1 -mmmx -o CMakeFiles\cmTC_99761.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_99761.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_99761.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_99761.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_99761.dir/objects.a @CMakeFiles\cmTC_99761.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -mmmx -Wl,--whole-archive CMakeFiles\cmTC_99761.dir/objects.a -Wl,--no-whole-archive -o cmTC_99761.exe -Wl,--out-implib,libcmTC_99761.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_99761.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -719,15 +719,15 @@ Source file was:
 Performing C SOURCE FILE Test CPU_SUPPORTS_SSE succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_410d3/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_410d3.dir\build.make CMakeFiles/cmTC_410d3.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_59d9a/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_59d9a.dir\build.make CMakeFiles/cmTC_59d9a.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_410d3.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE  -D_GNU_SOURCE=1 -msse -o CMakeFiles\cmTC_410d3.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_410d3.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_410d3.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_410d3.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_410d3.dir/objects.a @CMakeFiles\cmTC_410d3.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse -Wl,--whole-archive CMakeFiles\cmTC_410d3.dir/objects.a -Wl,--no-whole-archive -o cmTC_410d3.exe -Wl,--out-implib,libcmTC_410d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_410d3.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_59d9a.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE  -D_GNU_SOURCE=1 -msse -o CMakeFiles\cmTC_59d9a.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_59d9a.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_59d9a.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_59d9a.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_59d9a.dir/objects.a @CMakeFiles\cmTC_59d9a.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse -Wl,--whole-archive CMakeFiles\cmTC_59d9a.dir/objects.a -Wl,--no-whole-archive -o cmTC_59d9a.exe -Wl,--out-implib,libcmTC_59d9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_59d9a.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -750,15 +750,15 @@ Source file was:
 Performing C SOURCE FILE Test CPU_SUPPORTS_SSE2 succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b4c4c/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b4c4c.dir\build.make CMakeFiles/cmTC_b4c4c.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_af624/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_af624.dir\build.make CMakeFiles/cmTC_af624.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4c4c.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE2  -D_GNU_SOURCE=1 -msse2 -o CMakeFiles\cmTC_b4c4c.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_b4c4c.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b4c4c.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b4c4c.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_b4c4c.dir/objects.a @CMakeFiles\cmTC_b4c4c.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse2 -Wl,--whole-archive CMakeFiles\cmTC_b4c4c.dir/objects.a -Wl,--no-whole-archive -o cmTC_b4c4c.exe -Wl,--out-implib,libcmTC_b4c4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b4c4c.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_af624.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE2  -D_GNU_SOURCE=1 -msse2 -o CMakeFiles\cmTC_af624.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_af624.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af624.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_af624.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_af624.dir/objects.a @CMakeFiles\cmTC_af624.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse2 -Wl,--whole-archive CMakeFiles\cmTC_af624.dir/objects.a -Wl,--no-whole-archive -o cmTC_af624.exe -Wl,--out-implib,libcmTC_af624.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_af624.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -781,15 +781,15 @@ Source file was:
 Performing C SOURCE FILE Test CPU_SUPPORTS_SSE3 succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_93381/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_93381.dir\build.make CMakeFiles/cmTC_93381.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_90c39/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_90c39.dir\build.make CMakeFiles/cmTC_90c39.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_93381.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE3  -D_GNU_SOURCE=1 -msse3 -o CMakeFiles\cmTC_93381.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_93381.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_93381.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_93381.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_93381.dir/objects.a @CMakeFiles\cmTC_93381.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse3 -Wl,--whole-archive CMakeFiles\cmTC_93381.dir/objects.a -Wl,--no-whole-archive -o cmTC_93381.exe -Wl,--out-implib,libcmTC_93381.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_93381.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_90c39.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_SSE3  -D_GNU_SOURCE=1 -msse3 -o CMakeFiles\cmTC_90c39.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_90c39.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_90c39.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_90c39.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_90c39.dir/objects.a @CMakeFiles\cmTC_90c39.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -msse3 -Wl,--whole-archive CMakeFiles\cmTC_90c39.dir/objects.a -Wl,--no-whole-archive -o cmTC_90c39.exe -Wl,--out-implib,libcmTC_90c39.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_90c39.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -812,15 +812,15 @@ Source file was:
 Determining if the include file immintrin.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1c16d/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1c16d.dir\build.make CMakeFiles/cmTC_1c16d.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_07d93/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_07d93.dir\build.make CMakeFiles/cmTC_07d93.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1c16d.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_1c16d.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_1c16d.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1c16d.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1c16d.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_1c16d.dir/objects.a @CMakeFiles\cmTC_1c16d.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_1c16d.dir/objects.a -Wl,--no-whole-archive -o cmTC_1c16d.exe -Wl,--out-implib,libcmTC_1c16d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1c16d.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_07d93.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_07d93.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_07d93.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07d93.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_07d93.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_07d93.dir/objects.a @CMakeFiles\cmTC_07d93.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_07d93.dir/objects.a -Wl,--no-whole-archive -o cmTC_07d93.exe -Wl,--out-implib,libcmTC_07d93.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_07d93.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -828,15 +828,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file stdarg.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_88d06/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_88d06.dir\build.make CMakeFiles/cmTC_88d06.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d911b/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d911b.dir\build.make CMakeFiles/cmTC_d911b.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88d06.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_88d06.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_88d06.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_88d06.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_88d06.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_88d06.dir/objects.a @CMakeFiles\cmTC_88d06.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_88d06.dir/objects.a -Wl,--no-whole-archive -o cmTC_88d06.exe -Wl,--out-implib,libcmTC_88d06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_88d06.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_d911b.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_d911b.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_d911b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d911b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d911b.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_d911b.dir/objects.a @CMakeFiles\cmTC_d911b.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_d911b.dir/objects.a -Wl,--no-whole-archive -o cmTC_d911b.exe -Wl,--out-implib,libcmTC_d911b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d911b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -844,15 +844,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_29d14/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_29d14.dir\build.make CMakeFiles/cmTC_29d14.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f4590/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f4590.dir\build.make CMakeFiles/cmTC_f4590.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_29d14.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_29d14.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_29d14.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_29d14.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_29d14.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_29d14.dir/objects.a @CMakeFiles\cmTC_29d14.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_29d14.dir/objects.a -Wl,--no-whole-archive -o cmTC_29d14.exe -Wl,--out-implib,libcmTC_29d14.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_29d14.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_f4590.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_f4590.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_f4590.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f4590.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_f4590.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_f4590.dir/objects.a @CMakeFiles\cmTC_f4590.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_f4590.dir/objects.a -Wl,--no-whole-archive -o cmTC_f4590.exe -Wl,--out-implib,libcmTC_f4590.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f4590.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -860,15 +860,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_72ffe/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_72ffe.dir\build.make CMakeFiles/cmTC_72ffe.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3cd13/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3cd13.dir\build.make CMakeFiles/cmTC_3cd13.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_72ffe.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_72ffe.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_72ffe.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_72ffe.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_72ffe.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_72ffe.dir/objects.a @CMakeFiles\cmTC_72ffe.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_72ffe.dir/objects.a -Wl,--no-whole-archive -o cmTC_72ffe.exe -Wl,--out-implib,libcmTC_72ffe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_72ffe.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_3cd13.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_3cd13.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_3cd13.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3cd13.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_3cd13.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_3cd13.dir/objects.a @CMakeFiles\cmTC_3cd13.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_3cd13.dir/objects.a -Wl,--no-whole-archive -o cmTC_3cd13.exe -Wl,--out-implib,libcmTC_3cd13.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_3cd13.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -876,15 +876,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_daf20/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_daf20.dir\build.make CMakeFiles/cmTC_daf20.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8e6b0/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8e6b0.dir\build.make CMakeFiles/cmTC_8e6b0.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_daf20.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_WIN32_CC  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_daf20.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_daf20.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_daf20.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_daf20.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_daf20.dir/objects.a @CMakeFiles\cmTC_daf20.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_daf20.dir/objects.a -Wl,--no-whole-archive -o cmTC_daf20.exe -Wl,--out-implib,libcmTC_daf20.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_daf20.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_8e6b0.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_WIN32_CC  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_8e6b0.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_8e6b0.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e6b0.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8e6b0.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_8e6b0.dir/objects.a @CMakeFiles\cmTC_8e6b0.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_8e6b0.dir/objects.a -Wl,--no-whole-archive -o cmTC_8e6b0.exe -Wl,--out-implib,libcmTC_8e6b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8e6b0.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -895,15 +895,15 @@ Source file was:
 Determining if the include file d3d9.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_07f5a/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_07f5a.dir\build.make CMakeFiles/cmTC_07f5a.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_4268b/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4268b.dir\build.make CMakeFiles/cmTC_4268b.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07f5a.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_07f5a.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_07f5a.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_07f5a.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_07f5a.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_07f5a.dir/objects.a @CMakeFiles\cmTC_07f5a.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_07f5a.dir/objects.a -Wl,--no-whole-archive -o cmTC_07f5a.exe -Wl,--out-implib,libcmTC_07f5a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_07f5a.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_4268b.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_4268b.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_4268b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4268b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_4268b.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_4268b.dir/objects.a @CMakeFiles\cmTC_4268b.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_4268b.dir/objects.a -Wl,--no-whole-archive -o cmTC_4268b.exe -Wl,--out-implib,libcmTC_4268b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4268b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -911,15 +911,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file d3d11_1.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_67ac9/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_67ac9.dir\build.make CMakeFiles/cmTC_67ac9.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_84ea0/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_84ea0.dir\build.make CMakeFiles/cmTC_84ea0.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67ac9.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_67ac9.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_67ac9.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_67ac9.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_67ac9.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_67ac9.dir/objects.a @CMakeFiles\cmTC_67ac9.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_67ac9.dir/objects.a -Wl,--no-whole-archive -o cmTC_67ac9.exe -Wl,--out-implib,libcmTC_67ac9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_67ac9.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_84ea0.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_84ea0.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_84ea0.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_84ea0.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_84ea0.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_84ea0.dir/objects.a @CMakeFiles\cmTC_84ea0.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_84ea0.dir/objects.a -Wl,--no-whole-archive -o cmTC_84ea0.exe -Wl,--out-implib,libcmTC_84ea0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_84ea0.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -927,15 +927,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Performing C SOURCE FILE Test HAVE_D3D12_H succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e88c7/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e88c7.dir\build.make CMakeFiles/cmTC_e88c7.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a44fd/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a44fd.dir\build.make CMakeFiles/cmTC_a44fd.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e88c7.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_D3D12_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_e88c7.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_e88c7.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e88c7.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e88c7.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_e88c7.dir/objects.a @CMakeFiles\cmTC_e88c7.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_e88c7.dir/objects.a -Wl,--no-whole-archive -o cmTC_e88c7.exe -Wl,--out-implib,libcmTC_e88c7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e88c7.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_a44fd.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_D3D12_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a44fd.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_a44fd.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a44fd.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_a44fd.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_a44fd.dir/objects.a @CMakeFiles\cmTC_a44fd.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_a44fd.dir/objects.a -Wl,--no-whole-archive -o cmTC_a44fd.exe -Wl,--out-implib,libcmTC_a44fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a44fd.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -951,15 +951,15 @@ Source file was:
 Determining if the include file ddraw.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_ffe6b/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ffe6b.dir\build.make CMakeFiles/cmTC_ffe6b.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_dffe3/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_dffe3.dir\build.make CMakeFiles/cmTC_dffe3.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ffe6b.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_ffe6b.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_ffe6b.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ffe6b.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_ffe6b.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_ffe6b.dir/objects.a @CMakeFiles\cmTC_ffe6b.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_ffe6b.dir/objects.a -Wl,--no-whole-archive -o cmTC_ffe6b.exe -Wl,--out-implib,libcmTC_ffe6b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ffe6b.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_dffe3.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_dffe3.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_dffe3.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dffe3.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_dffe3.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_dffe3.dir/objects.a @CMakeFiles\cmTC_dffe3.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_dffe3.dir/objects.a -Wl,--no-whole-archive -o cmTC_dffe3.exe -Wl,--out-implib,libcmTC_dffe3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_dffe3.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -967,15 +967,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file dsound.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6b594/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6b594.dir\build.make CMakeFiles/cmTC_6b594.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8baea/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8baea.dir\build.make CMakeFiles/cmTC_8baea.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b594.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_6b594.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_6b594.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6b594.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6b594.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_6b594.dir/objects.a @CMakeFiles\cmTC_6b594.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_6b594.dir/objects.a -Wl,--no-whole-archive -o cmTC_6b594.exe -Wl,--out-implib,libcmTC_6b594.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6b594.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_8baea.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_8baea.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_8baea.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8baea.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_8baea.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_8baea.dir/objects.a @CMakeFiles\cmTC_8baea.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_8baea.dir/objects.a -Wl,--no-whole-archive -o cmTC_8baea.exe -Wl,--out-implib,libcmTC_8baea.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8baea.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -983,15 +983,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file dinput.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_2efd5/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2efd5.dir\build.make CMakeFiles/cmTC_2efd5.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c59a9/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c59a9.dir\build.make CMakeFiles/cmTC_c59a9.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2efd5.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_2efd5.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_2efd5.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2efd5.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_2efd5.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_2efd5.dir/objects.a @CMakeFiles\cmTC_2efd5.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_2efd5.dir/objects.a -Wl,--no-whole-archive -o cmTC_2efd5.exe -Wl,--out-implib,libcmTC_2efd5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2efd5.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_c59a9.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_c59a9.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_c59a9.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c59a9.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c59a9.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_c59a9.dir/objects.a @CMakeFiles\cmTC_c59a9.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_c59a9.dir/objects.a -Wl,--no-whole-archive -o cmTC_c59a9.exe -Wl,--out-implib,libcmTC_c59a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c59a9.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -999,15 +999,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file dxgi.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_55c51/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_55c51.dir\build.make CMakeFiles/cmTC_55c51.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9a387/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_9a387.dir\build.make CMakeFiles/cmTC_9a387.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_55c51.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_55c51.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_55c51.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_55c51.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_55c51.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_55c51.dir/objects.a @CMakeFiles\cmTC_55c51.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_55c51.dir/objects.a -Wl,--no-whole-archive -o cmTC_55c51.exe -Wl,--out-implib,libcmTC_55c51.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_55c51.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_9a387.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_9a387.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_9a387.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_9a387.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_9a387.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_9a387.dir/objects.a @CMakeFiles\cmTC_9a387.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_9a387.dir/objects.a -Wl,--no-whole-archive -o cmTC_9a387.exe -Wl,--out-implib,libcmTC_9a387.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_9a387.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1015,15 +1015,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_021f5/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_021f5.dir\build.make CMakeFiles/cmTC_021f5.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_c32bc/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_c32bc.dir\build.make CMakeFiles/cmTC_c32bc.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_021f5.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_021f5.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_021f5.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_021f5.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_021f5.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_021f5.dir/objects.a @CMakeFiles\cmTC_021f5.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_021f5.dir/objects.a -Wl,--no-whole-archive -o cmTC_021f5.exe -Wl,--out-implib,libcmTC_021f5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_021f5.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_c32bc.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_c32bc.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_c32bc.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c32bc.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_c32bc.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_c32bc.dir/objects.a @CMakeFiles\cmTC_c32bc.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_c32bc.dir/objects.a -Wl,--no-whole-archive -o cmTC_c32bc.exe -Wl,--out-implib,libcmTC_c32bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_c32bc.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1035,15 +1035,15 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_WINDOWS_GAMING_INPUT_H succeeded with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_db168/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_db168.dir\build.make CMakeFiles/cmTC_db168.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b9085/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b9085.dir\build.make CMakeFiles/cmTC_b9085.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_db168.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_db168.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_db168.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_db168.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_db168.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_db168.dir/objects.a @CMakeFiles\cmTC_db168.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_db168.dir/objects.a -Wl,--no-whole-archive -o cmTC_db168.exe -Wl,--out-implib,libcmTC_db168.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_db168.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_b9085.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_WINDOWS_GAMING_INPUT_H  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_b9085.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_b9085.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_b9085.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_b9085.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_b9085.dir/objects.a @CMakeFiles\cmTC_b9085.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_b9085.dir/objects.a -Wl,--no-whole-archive -o cmTC_b9085.exe -Wl,--out-implib,libcmTC_b9085.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_b9085.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1056,15 +1056,15 @@ Source file was:
 Determining if the include file tpcshrd.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e2526/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e2526.dir\build.make CMakeFiles/cmTC_e2526.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5c381/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5c381.dir\build.make CMakeFiles/cmTC_5c381.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2526.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_e2526.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_e2526.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e2526.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e2526.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_e2526.dir/objects.a @CMakeFiles\cmTC_e2526.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_e2526.dir/objects.a -Wl,--no-whole-archive -o cmTC_e2526.exe -Wl,--out-implib,libcmTC_e2526.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e2526.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_5c381.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_5c381.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_5c381.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_5c381.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_5c381.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_5c381.dir/objects.a @CMakeFiles\cmTC_5c381.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_5c381.dir/objects.a -Wl,--no-whole-archive -o cmTC_5c381.exe -Wl,--out-implib,libcmTC_5c381.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5c381.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1072,15 +1072,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file roapi.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e99ef/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_e99ef.dir\build.make CMakeFiles/cmTC_e99ef.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1348e/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1348e.dir\build.make CMakeFiles/cmTC_1348e.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e99ef.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_e99ef.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_e99ef.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e99ef.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_e99ef.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_e99ef.dir/objects.a @CMakeFiles\cmTC_e99ef.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_e99ef.dir/objects.a -Wl,--no-whole-archive -o cmTC_e99ef.exe -Wl,--out-implib,libcmTC_e99ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e99ef.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_1348e.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_1348e.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_1348e.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1348e.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1348e.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_1348e.dir/objects.a @CMakeFiles\cmTC_1348e.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_1348e.dir/objects.a -Wl,--no-whole-archive -o cmTC_1348e.exe -Wl,--out-implib,libcmTC_1348e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1348e.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1088,15 +1088,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file mmdeviceapi.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_98655/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_98655.dir\build.make CMakeFiles/cmTC_98655.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_1126b/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1126b.dir\build.make CMakeFiles/cmTC_1126b.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_98655.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_98655.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_98655.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_98655.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_98655.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_98655.dir/objects.a @CMakeFiles\cmTC_98655.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_98655.dir/objects.a -Wl,--no-whole-archive -o cmTC_98655.exe -Wl,--out-implib,libcmTC_98655.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_98655.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_1126b.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_1126b.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_1126b.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1126b.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_1126b.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_1126b.dir/objects.a @CMakeFiles\cmTC_1126b.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_1126b.dir/objects.a -Wl,--no-whole-archive -o cmTC_1126b.exe -Wl,--out-implib,libcmTC_1126b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1126b.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1104,15 +1104,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file audioclient.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_99eda/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_99eda.dir\build.make CMakeFiles/cmTC_99eda.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_86ccf/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_86ccf.dir\build.make CMakeFiles/cmTC_86ccf.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99eda.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_99eda.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_99eda.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_99eda.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_99eda.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_99eda.dir/objects.a @CMakeFiles\cmTC_99eda.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_99eda.dir/objects.a -Wl,--no-whole-archive -o cmTC_99eda.exe -Wl,--out-implib,libcmTC_99eda.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_99eda.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_86ccf.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_86ccf.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_86ccf.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_86ccf.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_86ccf.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_86ccf.dir/objects.a @CMakeFiles\cmTC_86ccf.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_86ccf.dir/objects.a -Wl,--no-whole-archive -o cmTC_86ccf.exe -Wl,--out-implib,libcmTC_86ccf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_86ccf.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1120,15 +1120,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file sensorsapi.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_06698/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_06698.dir\build.make CMakeFiles/cmTC_06698.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6c3d5/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c3d5.dir\build.make CMakeFiles/cmTC_6c3d5.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_06698.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_06698.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_06698.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_06698.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_06698.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_06698.dir/objects.a @CMakeFiles\cmTC_06698.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_06698.dir/objects.a -Wl,--no-whole-archive -o cmTC_06698.exe -Wl,--out-implib,libcmTC_06698.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_06698.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_6c3d5.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_6c3d5.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_6c3d5.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6c3d5.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6c3d5.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_6c3d5.dir/objects.a @CMakeFiles\cmTC_6c3d5.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_6c3d5.dir/objects.a -Wl,--no-whole-archive -o cmTC_6c3d5.exe -Wl,--out-implib,libcmTC_6c3d5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6c3d5.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 
@@ -1136,15 +1136,15 @@ mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeT
 Determining if the include file shellscalingapi.h exists passed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_88ba4/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_88ba4.dir\build.make CMakeFiles/cmTC_88ba4.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_69ca1/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_69ca1.dir\build.make CMakeFiles/cmTC_69ca1.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_88ba4.dir/CheckIncludeFile.c.obj
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_88ba4.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-Linking C executable cmTC_88ba4.exe
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_88ba4.dir\link.txt --verbose=1
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_88ba4.dir/objects.a
-D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_88ba4.dir/objects.a @CMakeFiles\cmTC_88ba4.dir\objects1.rsp
-D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_88ba4.dir/objects.a -Wl,--no-whole-archive -o cmTC_88ba4.exe -Wl,--out-implib,libcmTC_88ba4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_88ba4.dir\linklibs.rsp
+Building C object CMakeFiles/cmTC_69ca1.dir/CheckIncludeFile.c.obj
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_69ca1.dir\CheckIncludeFile.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_69ca1.exe
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_69ca1.dir\link.txt --verbose=1
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_69ca1.dir/objects.a
+D:\Resources\MinGW\bin\ar.exe qc CMakeFiles\cmTC_69ca1.dir/objects.a @CMakeFiles\cmTC_69ca1.dir\objects1.rsp
+D:\Resources\MinGW\bin\gcc.exe   -D_GNU_SOURCE=1 -Wl,--whole-archive CMakeFiles\cmTC_69ca1.dir/objects.a -Wl,--no-whole-archive -o cmTC_69ca1.exe -Wl,--out-implib,libcmTC_69ca1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_69ca1.dir\linklibs.rsp
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
 
 

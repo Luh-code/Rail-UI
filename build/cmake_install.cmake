@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testprog")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SDL3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/Projects/Rail/build/deps/SDL/cmake_install.cmake")
+  include("D:/Projects/Rail/build/deps/CGLM/cmake_install.cmake")
+  include("D:/Projects/Rail/build/projects/rail_renderer/cmake_install.cmake")
 
 endif()
 

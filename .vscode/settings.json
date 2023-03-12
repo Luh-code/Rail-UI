@@ -2,6 +2,7 @@
   "files.associations": {
     "cmath": "cpp",
     "cstdarg": "cpp",
-    "sdl.h": "c"
+    "sdl.h": "c",
+    "sdl_stdinc.h": "c"
   }
 }

@@ -21,8 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.obj.d"
   "CMakeFiles/SDL3_test.dir/src/test/SDL_test_random.c.obj"
   "CMakeFiles/SDL3_test.dir/src/test/SDL_test_random.c.obj.d"
-  "libSDL3_test.a"
-  "libSDL3_test.pdb"
+  "D:/Projects/Rail/lib/libSDL3_test.a"
+  "D:/Projects/Rail/lib/libSDL3_test.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

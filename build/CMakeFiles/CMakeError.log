@@ -1,19 +1,19 @@
 Determining if the __GLIBC__ exist failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_5245f/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_5245f.dir\build.make CMakeFiles/cmTC_5245f.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_ed8c6/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ed8c6.dir\build.make CMakeFiles/cmTC_ed8c6.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5245f.dir/CheckSymbolExists.c.obj
-D:\Resources\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_5245f.dir\CheckSymbolExists.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Building C object CMakeFiles/cmTC_ed8c6.dir/CheckSymbolExists.c.obj
+D:\Resources\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_ed8c6.dir\CheckSymbolExists.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c: In function 'main':
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: error: '__GLIBC__' undeclared (first use in this function); did you mean '__LINE__'?
     8 |   return ((int*)(&__GLIBC__))[argc];
       |                   ^~~~~~~~~
       |                   __LINE__
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_5245f.dir\build.make:77: CMakeFiles/cmTC_5245f.dir/CheckSymbolExists.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ed8c6.dir\build.make:77: CMakeFiles/cmTC_ed8c6.dir/CheckSymbolExists.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_5245f/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_ed8c6/fast] Error 2
 
 
 File D:/Projects/Rail/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -33,10 +33,10 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_cace1/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_cace1.dir\build.make CMakeFiles/cmTC_cace1.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_24bf9/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_24bf9.dir\build.make CMakeFiles/cmTC_24bf9.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cace1.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X86   -o CMakeFiles\cmTC_cace1.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_24bf9.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCHECK_CPU_ARCHITECTURE_X86   -o CMakeFiles\cmTC_24bf9.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c: In function 'main':
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c:6:3: error: 'choke' undeclared (first use in this function)
     6 |   choke
@@ -49,9 +49,9 @@ D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c:6:8: error: expected ';' before
     7 | #endif
     8 | }
       | ~       
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_cace1.dir\build.make:77: CMakeFiles/cmTC_cace1.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_24bf9.dir\build.make:77: CMakeFiles/cmTC_24bf9.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_cace1/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_24bf9/fast] Error 2
 
 
 Source file was:
@@ -67,14 +67,14 @@ int main(int argc, char *argv[]) {
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d4f72/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d4f72.dir\build.make CMakeFiles/cmTC_d4f72.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_03ab2/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_03ab2.dir\build.make CMakeFiles/cmTC_03ab2.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d4f72.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles\cmTC_d4f72.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_03ab2.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles\cmTC_03ab2.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-Wdocumentation'
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_d4f72.dir\build.make:77: CMakeFiles/cmTC_d4f72.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_03ab2.dir\build.make:77: CMakeFiles/cmTC_03ab2.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_d4f72/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_03ab2/fast] Error 2
 
 
 Source file was:
@@ -82,14 +82,14 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_6c4d3/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c4d3.dir\build.make CMakeFiles/cmTC_6c4d3.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_28239/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_28239.dir\build.make CMakeFiles/cmTC_28239.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6c4d3.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles\cmTC_6c4d3.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_28239.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles\cmTC_28239.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-Wdocumentation-unknown-command'
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6c4d3.dir\build.make:77: CMakeFiles/cmTC_6c4d3.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_28239.dir\build.make:77: CMakeFiles/cmTC_28239.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_6c4d3/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_28239/fast] Error 2
 
 
 Source file was:
@@ -97,14 +97,14 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_eb1ba/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eb1ba.dir\build.make CMakeFiles/cmTC_eb1ba.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_16546/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_16546.dir\build.make CMakeFiles/cmTC_16546.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eb1ba.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_eb1ba.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_16546.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_16546.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_eb1ba.dir\build.make:77: CMakeFiles/cmTC_eb1ba.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_16546.dir\build.make:77: CMakeFiles/cmTC_16546.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_eb1ba/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_16546/fast] Error 2
 
 
 Source file was:
@@ -112,16 +112,16 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_187ea/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_187ea.dir\build.make CMakeFiles/cmTC_187ea.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8d26e/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8d26e.dir\build.make CMakeFiles/cmTC_8d26e.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_187ea.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_187ea.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_8d26e.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles\cmTC_8d26e.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
 gcc.exe: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_187ea.dir\build.make:77: CMakeFiles/cmTC_187ea.dir/src.c.obj] Error 1
-mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_187ea.dir/src.c.obj'
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_8d26e.dir\build.make:77: CMakeFiles/cmTC_8d26e.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** Deleting file 'CMakeFiles/cmTC_8d26e.dir/src.c.obj'
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_187ea/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_8d26e/fast] Error 2
 
 
 Source file was:
@@ -129,18 +129,18 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_edace/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_edace.dir\build.make CMakeFiles/cmTC_edace.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8f768/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8f768.dir\build.make CMakeFiles/cmTC_8f768.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_edace.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_FVISIBILITY  -D_GNU_SOURCE=1 -fvisibility=hidden -Werror -o CMakeFiles\cmTC_edace.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_8f768.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_GCC_FVISIBILITY  -D_GNU_SOURCE=1 -fvisibility=hidden -Werror -o CMakeFiles\cmTC_8f768.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c: In function 'bar':
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c:8:33: error: visibility attribute not supported in this configuration; ignored [-Werror=attributes]
     8 |       int bar(void) { return 1; }
       |                                 ^
 cc1.exe: all warnings being treated as errors
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_edace.dir\build.make:77: CMakeFiles/cmTC_edace.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_8f768.dir\build.make:77: CMakeFiles/cmTC_8f768.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_edace/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_8f768/fast] Error 2
 
 
 Source file was:
@@ -156,14 +156,14 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_880ef/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_880ef.dir\build.make CMakeFiles/cmTC_880ef.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_b9d7c/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_b9d7c.dir\build.make CMakeFiles/cmTC_b9d7c.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_880ef.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -D_GNU_SOURCE=1 -maltivec -o CMakeFiles\cmTC_880ef.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_b9d7c.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_ALTIVEC_H_HDR  -D_GNU_SOURCE=1 -maltivec -o CMakeFiles\cmTC_b9d7c.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-maltivec'
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_880ef.dir\build.make:77: CMakeFiles/cmTC_880ef.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_b9d7c.dir\build.make:77: CMakeFiles/cmTC_b9d7c.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_880ef/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_b9d7c/fast] Error 2
 
 
 Source file was:
@@ -176,14 +176,14 @@ Source file was:
 Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8d864/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_8d864.dir\build.make CMakeFiles/cmTC_8d864.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0a714/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0a714.dir\build.make CMakeFiles/cmTC_0a714.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d864.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_ALTIVEC  -D_GNU_SOURCE=1 -maltivec -o CMakeFiles\cmTC_8d864.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_0a714.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DCPU_SUPPORTS_ALTIVEC  -D_GNU_SOURCE=1 -maltivec -o CMakeFiles\cmTC_0a714.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 gcc.exe: error: unrecognized command-line option '-maltivec'
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_8d864.dir\build.make:77: CMakeFiles/cmTC_8d864.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0a714.dir\build.make:77: CMakeFiles/cmTC_0a714.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_8d864/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_0a714/fast] Error 2
 
 
 Source file was:
@@ -195,17 +195,17 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_604d7/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_604d7.dir\build.make CMakeFiles/cmTC_604d7.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_148ff/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_148ff.dir\build.make CMakeFiles/cmTC_148ff.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_604d7.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_GAMEPAD_EX  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_604d7.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_148ff.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_GAMEPAD_EX  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_148ff.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD_X'?
     4 |       XINPUT_GAMEPAD_EX x1;
       |       ^~~~~~~~~~~~~~~~~
       |       XINPUT_GAMEPAD_X
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_604d7.dir\build.make:77: CMakeFiles/cmTC_604d7.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_148ff.dir\build.make:77: CMakeFiles/cmTC_148ff.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_604d7/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_148ff/fast] Error 2
 
 
 Source file was:
@@ -217,17 +217,17 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
 Change Dir: D:/Projects/Rail/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7c87e/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_7c87e.dir\build.make CMakeFiles/cmTC_7c87e.dir/build
+Run Build Command(s):D:/Resources/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a2cdf/fast && D:/Resources/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a2cdf.dir\build.make CMakeFiles/cmTC_a2cdf.dir/build
 mingw32-make.exe[1]: Entering directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7c87e.dir/src.c.obj
-D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_STATE_EX  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_7c87e.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
+Building C object CMakeFiles/cmTC_a2cdf.dir/src.c.obj
+D:\Resources\MinGW\bin\gcc.exe -DHAVE_XINPUT_STATE_EX  -D_GNU_SOURCE=1 -o CMakeFiles\cmTC_a2cdf.dir\src.c.obj -c D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c
 D:\Projects\Rail\build\CMakeFiles\CMakeTmp\src.c:4:7: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?
     4 |       XINPUT_STATE_EX s1;
       |       ^~~~~~~~~~~~~~~
       |       XINPUT_STATE
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_7c87e.dir\build.make:77: CMakeFiles/cmTC_7c87e.dir/src.c.obj] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a2cdf.dir\build.make:77: CMakeFiles/cmTC_a2cdf.dir/src.c.obj] Error 1
 mingw32-make.exe[1]: Leaving directory 'D:/Projects/Rail/build/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:126: cmTC_7c87e/fast] Error 2
+mingw32-make.exe: *** [Makefile:126: cmTC_a2cdf/fast] Error 2
 
 
 Source file was:

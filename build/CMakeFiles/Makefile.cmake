@@ -22,6 +22,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
+  "C:/Program Files/CMake/share/cmake-3.24/Modules/CPack.cmake"
+  "C:/Program Files/CMake/share/cmake-3.24/Modules/CPackComponent.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CheckCCompilerFlag.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/CheckCSourceRuns.cmake"
@@ -56,6 +58,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake"
+  "C:/Program Files/CMake/share/cmake-3.24/Templates/CPackConfig.cmake.in"
   "D:/Projects/Rail/.git/modules/deps/SDL/HEAD"
   "D:/Projects/Rail/.git/modules/deps/SDL/refs/heads/main"
   "D:/Projects/Rail/CMakeLists.txt"
@@ -65,6 +68,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
   "deps/SDL/CMakeFiles/git-data/grabRef.cmake"
   "deps/SDL/SDL_build_config.h.intermediate"
+  "D:/Projects/Rail/deps/CGLM/CMakeLists.txt"
+  "D:/Projects/Rail/deps/CGLM/cglm.pc.in"
   "D:/Projects/Rail/deps/SDL/CMakeLists.txt"
   "D:/Projects/Rail/deps/SDL/cmake/3rdparty.cmake"
   "D:/Projects/Rail/deps/SDL/cmake/CheckCPUArchitecture.cmake"
@@ -78,6 +83,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/Projects/Rail/deps/SDL/cmake/sdlplatform.cmake"
   "D:/Projects/Rail/deps/SDL/include/build_config/SDL_build_config.h.cmake"
   "D:/Projects/Rail/deps/SDL/include/build_config/SDL_revision.h.cmake"
+  "D:/Projects/Rail/projects/rail_renderer/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -100,12 +106,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "deps/SDL/cmake_uninstall.cmake"
   "deps/SDL/include-config-debug/build_config/SDL_build_config.h"
   "deps/SDL/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "CPackConfig.cmake"
+  "CPackSourceConfig.cmake"
+  "deps/CGLM/cglm.pc"
+  "deps/CGLM/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "projects/rail_renderer/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/testprog.dir/DependInfo.cmake"
+  "CMakeFiles/rail_renderer_test.dir/DependInfo.cmake"
   "deps/SDL/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "deps/SDL/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
   "deps/SDL/CMakeFiles/uninstall.dir/DependInfo.cmake"
+  "deps/CGLM/CMakeFiles/cglm.dir/DependInfo.cmake"
+  "projects/rail_renderer/CMakeFiles/rail_renderer.dir/DependInfo.cmake"
   )
